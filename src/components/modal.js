@@ -1,7 +1,7 @@
 import { Dialog } from "@headlessui/react";
 import { useRef } from "react";
 
-export const Modal = ({ onClose, children }) => {
+export function Modal({ onClose = () => {}, children }) {
   let overlayRef = useRef();
 
   return (
@@ -21,4 +21,4 @@ export const Modal = ({ onClose, children }) => {
       </div>
     </Dialog>
   );
-};
+}
