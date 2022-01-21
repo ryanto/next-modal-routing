@@ -2,7 +2,7 @@ export function ImageDetail({ image }) {
   return (
     <img
       src={`/${image}.jpeg`}
-      className="object-cover rounded shadow-lg h-2/3"
+      className="object-cover rounded shadow-lg h-[66vh] w-full"
     />
   );
 }
