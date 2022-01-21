@@ -2,7 +2,7 @@
 
 This repo is an example project showing you how to do modal routing in Next.js
 
-You can view the [Demo here](https://next-modal-routing-gallery.vercel.app/).
+You can view the [demo here](https://next-modal-routing-gallery.vercel.app/).
 
 ## Running the project locally
 
