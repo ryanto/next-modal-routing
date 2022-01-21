@@ -17,7 +17,9 @@ export default function ImagePage() {
 
       <div className="absolute inset-0">
         <div className="flex items-center justify-center h-screen">
-          <ImageDetail image={image} />
+          <div className="w-1/2">
+            <ImageDetail image={image} />
+          </div>
         </div>
       </div>
     </div>
